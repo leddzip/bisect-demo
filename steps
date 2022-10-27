@@ -1,0 +1,8 @@
+
+
+git bisect start
+git bisect bad # current is bad
+git bisect good 282c3a2
+... bad - good
+git bisect reset
+
